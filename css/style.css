@@ -1,0 +1,52 @@
+body{
+    background-color: gainsboro;
+}
+#primary{
+    background-color:gray;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.second{
+    height: auto;
+    width: 20%;
+    position: relative;
+    top: 80px;
+    left: 14%;
+    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid white;
+
+    transition: box-shadow, 1.5s, lineal, .5s;
+}
+.second:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10%;
+    margin-top: 5%;
+    padding-left: 9%;
+}
+.grid img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    transition: box-shadow, 1.5s, lineal, .5s;
+}
+.grid img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.grid img:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
